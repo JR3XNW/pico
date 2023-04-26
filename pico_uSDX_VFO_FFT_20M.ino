@@ -29,7 +29,7 @@ Si5351 si5351;
 //////////////////////////
 unsigned long FREQ = 14074000;  //
 unsigned long long FREQ_ULL = 1407400000ULL;
-unsigned long long pll_freq = 70500000000ULL;  //(0.01)
+unsigned long long pll_freq = 75000000000ULL;  //(0.01)
 
 const long LOW_FREQ = 14060000;  // lower frequency limit
 const long HI_FREQ = 14090000;   // upper frequency limit
