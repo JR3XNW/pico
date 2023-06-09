@@ -24,7 +24,7 @@
 #define SCREEN_WIDTH 128  // Width of the OLED display
 #define SCREEN_HEIGHT 32  // Height of the OLED display
 #define SAMPLING_FREQUENCY 50000  // Maximum frequency that can be captured
-#define THRESHOLD 3  // Threshold for the waterfall display
+#define THRESHOLD 2  // Threshold for the waterfall display
 #define HISTORY_LENGTH SCREEN_HEIGHT  // The number of previous FFT results to keep for the waterfall display
 
 int mod = 0;  // The mode. 0 for LSB and 1 for USB
